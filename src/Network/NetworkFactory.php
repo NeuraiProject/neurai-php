@@ -104,4 +104,20 @@ class NetworkFactory
     {
         return new Networks\Zcash();
     }
+
+    /**
+     * @return Networks\Neurai
+     */
+    public static function neurai(): NetworkInterface
+    {
+        return new Networks\Neurai();
+    }
+
+    /**
+     * @return Networks\NeuraiTestnet
+     */
+    public static function neuraiTestnet(): NetworkInterface
+    {
+        return new Networks\NeuraiTestnet();
+    }
 }

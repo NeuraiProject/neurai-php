@@ -137,6 +137,9 @@ class Opcodes implements \ArrayAccess
     const OP_NOP9 = 184;
     const OP_NOP10 = 185;
 
+    // Neurai asset opcode
+    const OP_XNA_ASSET = 0xc0;
+
     /**
      * @var array
      */
@@ -270,6 +273,7 @@ class Opcodes implements \ArrayAccess
         self::OP_NOP8 => 'OP_NOP8',
         self::OP_NOP9 => 'OP_NOP9',
         self::OP_NOP10 => 'OP_NOP10',
+        self::OP_XNA_ASSET => 'OP_XNA_ASSET',
     ];
 
     /**
